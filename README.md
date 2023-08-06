@@ -1,4 +1,4 @@
-# Churn-prediction-model
+# Machine Learning Project - Churn-prediction-model
 
 Problem Statement: Predicting Customer Churn for a Telecom Company
 
