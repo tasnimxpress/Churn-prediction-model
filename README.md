@@ -2,12 +2,13 @@
 
 Problem Statement: Predicting Customer Churn for a Telecom Company
 
-### Scenario:
-A telecom company wants to reduce customer churn, which occurs when customers switch to another service provider. The company has collected historical data of its customers, including information like gender, senior citizen status, partner, dependents, tenure, phone service, internet service, online security, online backup, device protection, tech support, streaming TV, streaming movies, contract type, paperless billing, payment method, monthly charges, total charges, and churn status (whether the customer churned or not).
-
 
 ### Objective:
 As part of a personal project, I undertook a customer churn prediction analysis for a telecommunications company. The main goal was to build a predictive model that identifies customers at risk of churning, enabling targeted retention strategies.
+
+
+### Scenario:
+A telecom company wants to reduce customer churn, which occurs when customers switch to another service provider. The company has collected historical data of its customers, including information like gender, senior citizen status, partner, dependents, tenure, phone service, internet service, online security, online backup, device protection, tech support, streaming TV, streaming movies, contract type, paperless billing, payment method, monthly charges, total charges, and churn status (whether the customer churned or not).
 
 
 ### Approach:
@@ -22,9 +23,8 @@ As part of a personal project, I undertook a customer churn prediction analysis 
 
 
 ### Results:
-Random Forest achieved an accuracy of 92% and demonstrated excellent recall, precision, and F1 score for churned customers.
+K-Nearest Neighbors achieved an accuracy of 96% and demonstrated excellent recall, precision, and F1 score for churned customers.
 The balanced dataset and the selected model provided more accurate predictions for customer churn.
-Significance:
 
 
 ### Final Model Deployment:
