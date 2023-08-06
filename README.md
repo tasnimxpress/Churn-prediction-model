@@ -29,7 +29,7 @@ The balanced dataset and the selected model provided more accurate predictions f
 
 ### Final Model Deployment:
 Once satisfied with the model's performance, deploy it in a production environment to make churn predictions for new incoming customers.
-Success Criteria:
+#### Success Criteria:
 The success of the project will be measured based on the accuracy and other relevant metrics achieved by the machine learning model in predicting customer churn. The model should provide accurate predictions, enabling the telecom company to take proactive actions to retain customers and reduce churn rates.
 
 ### Conclusion:
