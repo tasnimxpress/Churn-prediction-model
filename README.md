@@ -6,31 +6,30 @@ Scenario:
 A telecom company wants to reduce customer churn, which occurs when customers switch to another service provider. The company has collected historical data of its customers, including information like gender, senior citizen status, partner, dependents, tenure, phone service, internet service, online security, online backup, device protection, tech support, streaming TV, streaming movies, contract type, paperless billing, payment method, monthly charges, total charges, and churn status (whether the customer churned or not).
 
 Objective:
-The objective of this project is to build a machine learning model that can accurately predict whether a customer will churn or not based on the given features. By identifying customers who are likely to churn, the telecom company can take proactive measures to retain them, potentially leading to increased customer satisfaction and reduced business costs.
+As part of a personal project, I undertook a customer churn prediction analysis for a telecommunications company. The main goal was to build a predictive model that identifies customers at risk of churning, enabling targeted retention strategies.
 
-Steps to Solve the Problem:
+Approach:
 
-Data Loading and Exploration:
+Data Exploration: Explored the dataset to understand customer demographics and services subscribed.
+Model Evaluation: Compared multiple classifiers (Random Forest, Gradient Boosting, KNN) and prioritized recall, precision, and F1 score over accuracy due to data imbalance.
+Data Balancing: Implemented SMOTEEN upsampling to address data imbalance and improve model performance.
+Model Performance: Reevaluated classifiers after balancing data and identified Random Forest as the best-performing model.
+Results:
 
-Load the historical customer data into a dataframe.
-Perform exploratory data analysis (EDA) to understand the distribution of features, identify any missing values, and gain insights into the data.
-Data Preprocessing:
-
-Handle missing values, if any.
-Encode categorical features into numerical representations using techniques like one-hot encoding or label encoding.
-Split the dataset into features (X) and the target variable (y).
-Model Selection and Training:
-
-Choose an appropriate machine learning algorithm for binary classification, such as Logistic Regression, Random Forest, XGBoost, etc.
-Split the data into training and testing sets.
-Train the selected model on the training data.
-Model Evaluation:
-
-Evaluate the trained model's performance using appropriate metrics, such as accuracy, precision, recall, F1-score, or ROC-AUC.
-Analyze the model's performance to ensure it meets the desired accuracy and identify potential areas for improvement.
+Random Forest achieved an accuracy of 92% and demonstrated excellent recall, precision, and F1 score for churned customers.
+The balanced dataset and the selected model provided more accurate predictions for customer churn.
+Significance:
 
 Final Model Deployment:
 
 Once satisfied with the model's performance, deploy it in a production environment to make churn predictions for new incoming customers.
 Success Criteria:
 The success of the project will be measured based on the accuracy and other relevant metrics achieved by the machine learning model in predicting customer churn. The model should provide accurate predictions, enabling the telecom company to take proactive actions to retain customers and reduce churn rates.
+
+
+The project showcases data analysis, machine learning, and problem-solving skills.
+It highlights my ability to handle imbalanced datasets and choose appropriate evaluation metrics.
+The results demonstrate how predictive modeling can help businesses make informed decisions and improve customer retention strategies.
+
+
+
